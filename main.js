@@ -63,3 +63,32 @@ console.log(avgNumber)
 // Del 3
 numbers.push(sumOfNumbers)
 console.log(numbers)
+
+// UPPGIFT 5
+console.log("UPPGIFT 5")
+
+// Del 1
+
+var countries = ["Sweden", "Denmark", "Finland", "Norway"]
+
+// hitta rätt element
+let element2 = countries[1]
+
+// hitta de tre första bokstäverna
+let partOfElement2 = element2.substring(0, 3)
+
+console.log(partOfElement2)
+
+// Del 2
+
+let sumOfLetters = 0
+let avgLetters = 0
+function sumLetters(item) {
+  sumOfLetters += item.length
+}
+
+countries.forEach(sumLetters)
+
+avgLetters = sumOfLetters / countries.length
+
+console.log("Genomsnittligt antal bokstäver är ", avgLetters)
