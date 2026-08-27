@@ -1,5 +1,7 @@
 "use strict"
 
+// Andrea Strömberg
+
 // UPPGIFT 1
 console.log("UPPGIFT 1")
 console.log(5 * 2 < 12)
@@ -148,4 +150,14 @@ if (amount < 50) {
   console.log("Optimal range for the amount!")
 } else {
   console.log("Too much!")
+}
+
+// UPPGIFT 10
+
+console.log("UPPGIFT 10")
+
+let hashtags = "#"
+for (let count = 0; count < 8; count++) {
+  console.log(hashtags)
+  hashtags += "#"
 }
