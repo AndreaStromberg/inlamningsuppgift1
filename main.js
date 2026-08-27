@@ -92,3 +92,35 @@ countries.forEach(sumLetters)
 avgLetters = sumOfLetters / countries.length
 
 console.log("Genomsnittligt antal bokstäver är ", avgLetters)
+
+// UPPGIFT 6
+
+console.log("UPPGIFT 6")
+
+var values = [3, 5, "Jane", true, 144, false]
+
+values.reverse()
+
+console.log(values)
+
+// UPPGIFT 7
+console.log("UPPGIFT 7")
+
+var names = ["Jane", "Joe", "Eliza"]
+var ages = [21, 34, 22]
+var hasPet = [true, false, true]
+
+var multipleArrays = []
+
+// Funktion för att lägga till värden i arrayen multipleArrays
+function addValue(item) {
+  multipleArrays.push(item)
+}
+
+names.forEach(addValue)
+
+ages.forEach(addValue)
+
+hasPet.forEach(addValue)
+
+console.log(multipleArrays)
