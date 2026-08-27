@@ -124,3 +124,28 @@ ages.forEach(addValue)
 hasPet.forEach(addValue)
 
 console.log(multipleArrays)
+
+// UPPGIFT 8
+console.log("UPPGIFT 8")
+
+var actors = ["Sherlock", "Watson", "Bo"]
+
+// Göra om arrayen till en sträng
+var stringActors = actors.toString()
+
+// Ersätta kommatecknen med streck
+var stringActorsStrecks = stringActors.replaceAll(",", " - ")
+console.log(stringActorsStrecks)
+
+// UPPGIFT 9
+console.log("UPPGIFT 9")
+
+let amount = 0
+
+if (amount < 50) {
+  console.log("Less than 50")
+} else if (amount < 65) {
+  console.log("Optimal range for the amount!")
+} else {
+  console.log("Too much!")
+}
